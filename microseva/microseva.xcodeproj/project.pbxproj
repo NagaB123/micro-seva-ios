@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77757FD2CA01B1B00F72E0A /* microsevaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77757FC2CA01B1B00F72E0A /* microsevaApp.swift */; };
+		E77757FF2CA01B1B00F72E0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77757FE2CA01B1B00F72E0A /* ContentView.swift */; };
+		E77758012CA01B2000F72E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77758002CA01B2000F72E0A /* Assets.xcassets */; };
+		E77758042CA01B2000F72E0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77758032CA01B2000F72E0A /* Preview Assets.xcassets */; };
+		E777580E2CA01B2100F72E0A /* microsevaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777580D2CA01B2100F72E0A /* microsevaTests.swift */; };
+		E77758182CA01B2100F72E0A /* microsevaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758172CA01B2100F72E0A /* microsevaUITests.swift */; };
+		E777581A2CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758192CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift */; };
+		E77758292CA01D2100F72E0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758282CA01D2100F72E0A /* OnboardingView.swift */; };
+		E777582D2CA01D8600F72E0A /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777582C2CA01D8600F72E0A /* CircleGroupView.swift */; };
+		E77758302CA01E9500F72E0A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777582F2CA01E9500F72E0A /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E777580A2CA01B2100F72E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77757F12CA01B1B00F72E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77757F82CA01B1B00F72E0A;
+			remoteInfo = microseva;
+		};
+		E77758142CA01B2100F72E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77757F12CA01B1B00F72E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77757F82CA01B1B00F72E0A;
+			remoteInfo = microseva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77757F92CA01B1B00F72E0A /* microseva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microseva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77757FC2CA01B1B00F72E0A /* microsevaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microsevaApp.swift; sourceTree = "<group>"; };
+		E77757FE2CA01B1B00F72E0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E77758002CA01B2000F72E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77758032CA01B2000F72E0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E77758092CA01B2100F72E0A /* microsevaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microsevaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777580D2CA01B2100F72E0A /* microsevaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microsevaTests.swift; sourceTree = "<group>"; };
+		E77758132CA01B2100F72E0A /* microsevaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microsevaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77758172CA01B2100F72E0A /* microsevaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microsevaUITests.swift; sourceTree = "<group>"; };
+		E77758192CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microsevaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E77758282CA01D2100F72E0A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E777582C2CA01D8600F72E0A /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		E777582F2CA01E9500F72E0A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77757F62CA01B1B00F72E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77758062CA01B2100F72E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77758102CA01B2100F72E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77757F02CA01B1B00F72E0A = {
+			isa = PBXGroup;
+			children = (
+				E77757FB2CA01B1B00F72E0A /* microseva */,
+				E777580C2CA01B2100F72E0A /* microsevaTests */,
+				E77758162CA01B2100F72E0A /* microsevaUITests */,
+				E77757FA2CA01B1B00F72E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77757FA2CA01B1B00F72E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77757F92CA01B1B00F72E0A /* microseva.app */,
+				E77758092CA01B2100F72E0A /* microsevaTests.xctest */,
+				E77758132CA01B2100F72E0A /* microsevaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77757FB2CA01B1B00F72E0A /* microseva */ = {
+			isa = PBXGroup;
+			children = (
+				E777582E2CA01E8600F72E0A /* Constants */,
+				E777582B2CA01D7400F72E0A /* Views */,
+				E77758272CA01C5100F72E0A /* App */,
+				E77758262CA01C4A00F72E0A /* Auth */,
+				E77758002CA01B2000F72E0A /* Assets.xcassets */,
+				E77758022CA01B2000F72E0A /* Preview Content */,
+			);
+			path = microseva;
+			sourceTree = "<group>";
+		};
+		E77758022CA01B2000F72E0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E77758032CA01B2000F72E0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E777580C2CA01B2100F72E0A /* microsevaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E777580D2CA01B2100F72E0A /* microsevaTests.swift */,
+			);
+			path = microsevaTests;
+			sourceTree = "<group>";
+		};
+		E77758162CA01B2100F72E0A /* microsevaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77758172CA01B2100F72E0A /* microsevaUITests.swift */,
+				E77758192CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift */,
+			);
+			path = microsevaUITests;
+			sourceTree = "<group>";
+		};
+		E77758262CA01C4A00F72E0A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E77758282CA01D2100F72E0A /* OnboardingView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E77758272CA01C5100F72E0A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E77757FC2CA01B1B00F72E0A /* microsevaApp.swift */,
+				E77757FE2CA01B1B00F72E0A /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E777582B2CA01D7400F72E0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E777582C2CA01D8600F72E0A /* CircleGroupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E777582E2CA01E8600F72E0A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E777582F2CA01E9500F72E0A /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77757F82CA01B1B00F72E0A /* microseva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E777581D2CA01B2100F72E0A /* Build configuration list for PBXNativeTarget "microseva" */;
+			buildPhases = (
+				E77757F52CA01B1B00F72E0A /* Sources */,
+				E77757F62CA01B1B00F72E0A /* Frameworks */,
+				E77757F72CA01B1B00F72E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microseva;
+			productName = microseva;
+			productReference = E77757F92CA01B1B00F72E0A /* microseva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77758082CA01B2100F72E0A /* microsevaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77758202CA01B2100F72E0A /* Build configuration list for PBXNativeTarget "microsevaTests" */;
+			buildPhases = (
+				E77758052CA01B2100F72E0A /* Sources */,
+				E77758062CA01B2100F72E0A /* Frameworks */,
+				E77758072CA01B2100F72E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E777580B2CA01B2100F72E0A /* PBXTargetDependency */,
+			);
+			name = microsevaTests;
+			productName = microsevaTests;
+			productReference = E77758092CA01B2100F72E0A /* microsevaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77758122CA01B2100F72E0A /* microsevaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77758232CA01B2100F72E0A /* Build configuration list for PBXNativeTarget "microsevaUITests" */;
+			buildPhases = (
+				E777580F2CA01B2100F72E0A /* Sources */,
+				E77758102CA01B2100F72E0A /* Frameworks */,
+				E77758112CA01B2100F72E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77758152CA01B2100F72E0A /* PBXTargetDependency */,
+			);
+			name = microsevaUITests;
+			productName = microsevaUITests;
+			productReference = E77758132CA01B2100F72E0A /* microsevaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77757F12CA01B1B00F72E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E77757F82CA01B1B00F72E0A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E77758082CA01B2100F72E0A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E77757F82CA01B1B00F72E0A;
+					};
+					E77758122CA01B2100F72E0A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E77757F82CA01B1B00F72E0A;
+					};
+				};
+			};
+			buildConfigurationList = E77757F42CA01B1B00F72E0A /* Build configuration list for PBXProject "microseva" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77757F02CA01B1B00F72E0A;
+			productRefGroup = E77757FA2CA01B1B00F72E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77757F82CA01B1B00F72E0A /* microseva */,
+				E77758082CA01B2100F72E0A /* microsevaTests */,
+				E77758122CA01B2100F72E0A /* microsevaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77757F72CA01B1B00F72E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77758042CA01B2000F72E0A /* Preview Assets.xcassets in Resources */,
+				E77758012CA01B2000F72E0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77758072CA01B2100F72E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77758112CA01B2100F72E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77757F52CA01B1B00F72E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77758292CA01D2100F72E0A /* OnboardingView.swift in Sources */,
+				E77758302CA01E9500F72E0A /* Colors.swift in Sources */,
+				E77757FF2CA01B1B00F72E0A /* ContentView.swift in Sources */,
+				E777582D2CA01D8600F72E0A /* CircleGroupView.swift in Sources */,
+				E77757FD2CA01B1B00F72E0A /* microsevaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77758052CA01B2100F72E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E777580E2CA01B2100F72E0A /* microsevaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E777580F2CA01B2100F72E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E777581A2CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift in Sources */,
+				E77758182CA01B2100F72E0A /* microsevaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E777580B2CA01B2100F72E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77757F82CA01B1B00F72E0A /* microseva */;
+			targetProxy = E777580A2CA01B2100F72E0A /* PBXContainerItemProxy */;
+		};
+		E77758152CA01B2100F72E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77757F82CA01B1B00F72E0A /* microseva */;
+			targetProxy = E77758142CA01B2100F72E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E777581B2CA01B2100F72E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E777581C2CA01B2100F72E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E777581E2CA01B2100F72E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microseva/Preview Content\"";
+				DEVELOPMENT_TEAM = 93ZX98LV7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microseva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E777581F2CA01B2100F72E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microseva/Preview Content\"";
+				DEVELOPMENT_TEAM = 93ZX98LV7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microseva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77758212CA01B2100F72E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93ZX98LV7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsevaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microseva.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microseva";
+			};
+			name = Debug;
+		};
+		E77758222CA01B2100F72E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93ZX98LV7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsevaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microseva.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microseva";
+			};
+			name = Release;
+		};
+		E77758242CA01B2100F72E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93ZX98LV7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsevaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = microseva;
+			};
+			name = Debug;
+		};
+		E77758252CA01B2100F72E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93ZX98LV7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsevaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = microseva;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77757F42CA01B1B00F72E0A /* Build configuration list for PBXProject "microseva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E777581B2CA01B2100F72E0A /* Debug */,
+				E777581C2CA01B2100F72E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E777581D2CA01B2100F72E0A /* Build configuration list for PBXNativeTarget "microseva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E777581E2CA01B2100F72E0A /* Debug */,
+				E777581F2CA01B2100F72E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77758202CA01B2100F72E0A /* Build configuration list for PBXNativeTarget "microsevaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77758212CA01B2100F72E0A /* Debug */,
+				E77758222CA01B2100F72E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77758232CA01B2100F72E0A /* Build configuration list for PBXNativeTarget "microsevaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77758242CA01B2100F72E0A /* Debug */,
+				E77758252CA01B2100F72E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77757F12CA01B1B00F72E0A /* Project object */;
+}
