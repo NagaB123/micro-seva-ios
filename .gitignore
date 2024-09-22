@@ -1,0 +1,21 @@
+
+
+## Do not track private Xcode settings
+microseva.xcodeproj/xcuserdata
+microseva.xcodeproj/project.xcworkspace/xcuserdata
+microseva.xcodeproj/project.xcworkspace/xcshareddata
+microseva/microseva.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+xcuserdata/
+
+
+__MACOSX
+.DS_Store
+Frameworks
+.slather.yml
+UTReport
+Manifest.json
+
+**/Package.resolved
+.swiftpm/xcode/xcuserdata/
+.swiftpm/xcode/package.xcworkspace/xcuserdata

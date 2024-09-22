@@ -1,16 +1,19 @@
+//
+//  SubmitOTPView.swift
+//  microseva
+//
+//  Created by Naga Bhimanpati on 22/09/24.
+//
 
 import SwiftUI
 
-struct OnboardingView: View {
-  // MARK: - PROPERTY
+struct SubmitOTPView: View {
 
-  @AppStorage(Storage.onboardingFlag) var isOnboardingViewActive: Bool = true
-    @State var pushloginScreen: Bool = false
-
-  // MARK: - BODY
+    @State private var otp: String = ""
+    @FocusState private var isOTPFieldFocused: Bool
+    private let numberOfFieldsInOTP = 6
 
     var body: some View {
-        // MARK: - OnboardingView
 
         ZStack {
           CustomBackgroundView()
@@ -19,7 +22,7 @@ struct OnboardingView: View {
             // MARK: - HEADER
 
             VStack(alignment: .leading) {
-                Text("MS_Welcome".localized)
+                Text("MS_Enter_Mobile_Number".localized)
                 .fontWeight(.black)
                 .font(.system(size: 52))
                 .foregroundStyle(
@@ -31,7 +34,7 @@ struct OnboardingView: View {
                     endPoint: .bottom)
                 )
 
-                Text("MS_LoginOrSignUp".localized)
+                Text("MS_OTP_Wait_Message".localized)
                 .multilineTextAlignment(.leading)
                 .italic()
                 .foregroundColor(.customGrayMedium)
@@ -40,22 +43,29 @@ struct OnboardingView: View {
 
             // MARK: - MAIN CONTENT
 
-            ZStack {
-              //CustomCircleView()
-
-              Image("image-1")
+              Image("image-3")
                 .resizable()
                 .scaledToFit()
                 .animation(.default, value: 1)
-            }
+
+              Text("VERIFICATION CODE")
+                  .foregroundColor(Color.gray)
+                  .font(.system(size: 12))
+
+              OTPFieldView(numberOfFields: numberOfFieldsInOTP, otp: $otp)
+                  .onChange(of: otp) { newOtp in
+                      if newOtp.count == numberOfFieldsInOTP {
+                          // Verify OTP
+                      }
+                  }
+                  .focused($isOTPFieldFocused)
 
             // MARK: - FOOTER
 
             Button {
               // ACTION:
-                pushloginScreen = true
             } label: {
-              Text("MS_Login".localized)
+              Text("MS_SubmitOTP".localized)
                 .font(.title2)
                 .fontWeight(.heavy)
                 .foregroundStyle(
@@ -71,39 +81,17 @@ struct OnboardingView: View {
                 .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
             }
             .buttonStyle(GradientButton())
-
-
-//              NavigationLink(destination: LoginView(), isActive: $pushloginScreen, label: {
-//                  EmptyView()
-//              })
-
-              Button {
-                // ACTION:
-              } label: {
-                  Text("MS_SignUp".localized)
-                  .font(.title2)
-                  .fontWeight(.heavy)
-                  .foregroundStyle(
-                    LinearGradient(
-                      colors: [
-                        .customGreenLight,
-                        .customGreenMedium
-                      ],
-                      startPoint: .top,
-                      endPoint: .bottom
-                    )
-                  )
-                  .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
-              }
-              .buttonStyle(GradientButton())
+            .padding(12)
           } //: ZSTACK
-        } //: OnboardingView
-      }
+          .onAppear {
+              DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                  isOTPFieldFocused = true
+              }
+          }
+        }
+    }
 }
 
-// MARK: - PREVIEW
-struct OnboardingView_Previews: PreviewProvider {
-  static var previews: some View {
-    OnboardingView()
-  }
+#Preview {
+    SubmitOTPView()
 }

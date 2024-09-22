@@ -15,8 +15,19 @@
 		E77758182CA01B2100F72E0A /* microsevaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758172CA01B2100F72E0A /* microsevaUITests.swift */; };
 		E777581A2CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758192CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift */; };
 		E77758292CA01D2100F72E0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758282CA01D2100F72E0A /* OnboardingView.swift */; };
-		E777582D2CA01D8600F72E0A /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777582C2CA01D8600F72E0A /* CircleGroupView.swift */; };
 		E77758302CA01E9500F72E0A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777582F2CA01E9500F72E0A /* Colors.swift */; };
+		E77758322CA02D3700F72E0A /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77758312CA02D3700F72E0A /* Storage.swift */; };
+		E77758362CA0333B00F72E0A /* Localizable.json in Resources */ = {isa = PBXBuildFile; fileRef = E77758382CA0333B00F72E0A /* Localizable.json */; };
+		E777583B2CA04FFA00F72E0A /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E777583A2CA04FFA00F72E0A /* Localization.swift */; };
+		E7CDC5BC2CA0560E005A81E6 /* ResourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5BB2CA0560E005A81E6 /* ResourceHelper.swift */; };
+		E7CDC5BE2CA058D7005A81E6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5BD2CA058D7005A81E6 /* CustomBackgroundView.swift */; };
+		E7CDC5C22CA05B69005A81E6 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5C12CA05B69005A81E6 /* GradientButtonStyle.swift */; };
+		E7CDC5C42CA05EE6005A81E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5C32CA05EE6005A81E6 /* LoginView.swift */; };
+		E7CDC5CC2CA064E2005A81E6 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = E7CDC5CB2CA064E2005A81E6 /* iPhoneNumberField */; };
+		E7CDC5CE2CA06748005A81E6 /* ViewIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5CD2CA06748005A81E6 /* ViewIdentifiers.swift */; };
+		E7CDC5D02CA0690E005A81E6 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5CF2CA0690E005A81E6 /* OTPFieldView.swift */; };
+		E7CDC5D22CA06973005A81E6 /* SubmitOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5D12CA06973005A81E6 /* SubmitOTPView.swift */; };
+		E7CDC5D42CA06BC5005A81E6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDC5D32CA06BC5005A81E6 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +59,18 @@
 		E77758172CA01B2100F72E0A /* microsevaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microsevaUITests.swift; sourceTree = "<group>"; };
 		E77758192CA01B2100F72E0A /* microsevaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microsevaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E77758282CA01D2100F72E0A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		E777582C2CA01D8600F72E0A /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		E777582F2CA01E9500F72E0A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E77758312CA02D3700F72E0A /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		E77758372CA0333B00F72E0A /* en */ = {isa = PBXFileReference; explicitFileType = text.json; name = en; path = en.lproj/Localizable.json; sourceTree = "<group>"; };
+		E777583A2CA04FFA00F72E0A /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		E7CDC5BB2CA0560E005A81E6 /* ResourceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceHelper.swift; sourceTree = "<group>"; };
+		E7CDC5BD2CA058D7005A81E6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		E7CDC5C12CA05B69005A81E6 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		E7CDC5C32CA05EE6005A81E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E7CDC5CD2CA06748005A81E6 /* ViewIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIdentifiers.swift; sourceTree = "<group>"; };
+		E7CDC5CF2CA0690E005A81E6 /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
+		E7CDC5D12CA06973005A81E6 /* SubmitOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitOTPView.swift; sourceTree = "<group>"; };
+		E7CDC5D32CA06BC5005A81E6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7CDC5CC2CA064E2005A81E6 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +122,8 @@
 		E77757FB2CA01B1B00F72E0A /* microseva */ = {
 			isa = PBXGroup;
 			children = (
+				E77758392CA04FDA00F72E0A /* Utilities */,
+				E77758332CA02FDA00F72E0A /* Resources */,
 				E777582E2CA01E8600F72E0A /* Constants */,
 				E777582B2CA01D7400F72E0A /* Views */,
 				E77758272CA01C5100F72E0A /* App */,
@@ -139,6 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				E77758282CA01D2100F72E0A /* OnboardingView.swift */,
+				E7CDC5C32CA05EE6005A81E6 /* LoginView.swift */,
+				E7CDC5D12CA06973005A81E6 /* SubmitOTPView.swift */,
+				E7CDC5D32CA06BC5005A81E6 /* SignUpView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -155,7 +182,8 @@
 		E777582B2CA01D7400F72E0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E777582C2CA01D8600F72E0A /* CircleGroupView.swift */,
+				E7CDC5BD2CA058D7005A81E6 /* CustomBackgroundView.swift */,
+				E7CDC5CF2CA0690E005A81E6 /* OTPFieldView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,8 +192,28 @@
 			isa = PBXGroup;
 			children = (
 				E777582F2CA01E9500F72E0A /* Colors.swift */,
+				E77758312CA02D3700F72E0A /* Storage.swift */,
+				E7CDC5CD2CA06748005A81E6 /* ViewIdentifiers.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		E77758332CA02FDA00F72E0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E77758382CA0333B00F72E0A /* Localizable.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E77758392CA04FDA00F72E0A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E7CDC5C12CA05B69005A81E6 /* GradientButtonStyle.swift */,
+				E777583A2CA04FFA00F72E0A /* Localization.swift */,
+				E7CDC5BB2CA0560E005A81E6 /* ResourceHelper.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +232,9 @@
 			dependencies = (
 			);
 			name = microseva;
+			packageProductDependencies = (
+				E7CDC5CB2CA064E2005A81E6 /* iPhoneNumberField */,
+			);
 			productName = microseva;
 			productReference = E77757F92CA01B1B00F72E0A /* microseva.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +307,9 @@
 				Base,
 			);
 			mainGroup = E77757F02CA01B1B00F72E0A;
+			packageReferences = (
+				E7CDC5CA2CA064E2005A81E6 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = E77757FA2CA01B1B00F72E0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -273,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77758042CA01B2000F72E0A /* Preview Assets.xcassets in Resources */,
+				E77758362CA0333B00F72E0A /* Localizable.json in Resources */,
 				E77758012CA01B2000F72E0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,11 +353,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7CDC5D22CA06973005A81E6 /* SubmitOTPView.swift in Sources */,
 				E77758292CA01D2100F72E0A /* OnboardingView.swift in Sources */,
+				E7CDC5C22CA05B69005A81E6 /* GradientButtonStyle.swift in Sources */,
 				E77758302CA01E9500F72E0A /* Colors.swift in Sources */,
+				E7CDC5CE2CA06748005A81E6 /* ViewIdentifiers.swift in Sources */,
+				E777583B2CA04FFA00F72E0A /* Localization.swift in Sources */,
 				E77757FF2CA01B1B00F72E0A /* ContentView.swift in Sources */,
-				E777582D2CA01D8600F72E0A /* CircleGroupView.swift in Sources */,
 				E77757FD2CA01B1B00F72E0A /* microsevaApp.swift in Sources */,
+				E7CDC5D02CA0690E005A81E6 /* OTPFieldView.swift in Sources */,
+				E7CDC5BE2CA058D7005A81E6 /* CustomBackgroundView.swift in Sources */,
+				E7CDC5D42CA06BC5005A81E6 /* SignUpView.swift in Sources */,
+				E77758322CA02D3700F72E0A /* Storage.swift in Sources */,
+				E7CDC5C42CA05EE6005A81E6 /* LoginView.swift in Sources */,
+				E7CDC5BC2CA0560E005A81E6 /* ResourceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +401,17 @@
 			targetProxy = E77758142CA01B2100F72E0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77758382CA0333B00F72E0A /* Localizable.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77758372CA0333B00F72E0A /* en */,
+			);
+			name = Localizable.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E777581B2CA01B2100F72E0A /* Debug */ = {
@@ -632,6 +707,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7CDC5CA2CA064E2005A81E6 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7CDC5CB2CA064E2005A81E6 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7CDC5CA2CA064E2005A81E6 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E77757F12CA01B1B00F72E0A /* Project object */;
 }

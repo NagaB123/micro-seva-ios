@@ -1,0 +1,43 @@
+
+{
+    "MS_LoginOrSignUp": {
+        "default": "Please login or sign up!",
+        "en": "Please login or sign up!",
+        "es": "Please login or sign up!"
+    },
+    "MS_Welcome": {
+        "default": "Welcome!",
+        "en": "Welcome!",
+        "es": "Welcome!"
+    },
+    "MS_Login": {
+        "default": "Login",
+        "en": "Login",
+        "es": "Login"
+    },
+    "MS_SignUp": {
+        "default": "SignUp",
+        "en": "SignUp",
+        "es": "SignUp"
+    },
+    "MS_Enter_Mobile_Number": {
+        "default": "Enter mobile number",
+        "en": "Enter mobile number",
+        "es": "Please enter mobile number"
+    },
+    "MS_OTP_Wait_Message": {
+        "default": "Wait for the OTP..",
+        "en": "Wait for the OTP..",
+        "es": "Wait for the OTP.."
+    },
+    "MS_SubmitOTP": {
+        "default": "Submit OTP",
+        "en": "Submit OTP",
+        "es": "Submit OTP"
+    },
+    "MS_SignUp": {
+        "default": "Sign Up",
+        "en": "Sign Up",
+        "es": "Sign Up"
+    },
+}

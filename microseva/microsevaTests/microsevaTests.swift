@@ -1,9 +1,3 @@
-//
-//  microsevaTests.swift
-//  microsevaTests
-//
-//  Created by Naga Bhimanpati on 22/09/24.
-//
 
 import XCTest
 @testable import microseva
